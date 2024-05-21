@@ -4,6 +4,8 @@
 /node_modules
 /.pnp
 .pnp.js
+prettier.config.js
+.eslintrc.json
 
 # testing
 /coverage
