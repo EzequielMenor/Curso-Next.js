@@ -20,6 +20,12 @@ prettier.config.js
 # misc
 .DS_Store
 *.pem
+env.example
+.nvmrc
+package.json
+package-lock.json
+postcss.config.js
+next.config.js
 
 # debug
 npm-debug.log*
