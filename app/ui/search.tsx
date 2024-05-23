@@ -4,7 +4,7 @@ import { MagnifyingGlassIcon } from '@heroicons/react/24/outline'
 import { useSearchParams, usePathname, useRouter } from 'next/navigation'
 import { useDebouncedCallback } from 'use-debounce'
 
-const WAIT_BETWEEN_CHANGE = 2000
+const WAIT_BETWEEN_CHANGE = 300
 
 export default function Search({ placeholder }: { placeholder: string }) {
   const searchParams = useSearchParams()
